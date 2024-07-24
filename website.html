@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<style>
+   body{
+    margin: 0%;
+    padding: 0%;
+   }
+    nav{
+        background-color: rgb(211, 233, 247);
+        height: 80px;
+        margin: auto;
+        width: 100%;
+        position: fixed;
+    }
+    
+    ul{
+        float: right;
+        display: flex;
+        padding:270px;
+        padding-top: 14px;
+     }
+    ul li{
+        list-style: none;
+        margin-left: 48px;
+    }
+    li{
+        list-style-type:none;
+        
+    }
+   
+        nav .logo{
+        border-radius: 10rem;
+        position: absolute;
+        top: 10px;
+        left: 150px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-family:Arial, sans-serif;
+        color: darkblue;
+
+
+    }
+    .main-content{
+        width: 100%;
+        background-image: url(/website/axelpics/Group-791.png);
+        background-size: cover;
+        background-position: center;
+        padding-top: 1px;
+        height: 700px;
+    }
+    .main-content h1{
+        padding-left: 170px;
+        padding-top: 200px;
+        color: darkblue;
+        font-family:Arial, sans-serif;
+        font-size: xx-large;
+        line-height: 1.6;
+    }
+    .main-content p{
+         padding-left: 170px;
+         color: rgb(107, 107, 107);
+         line-height: 1.5;
+         font-size: larger;
+         font-family:Arial, sans-serif;
+
+
+        
+    }
+    .wtsp{
+        bottom: 250px;
+        right: 40px;
+        height: 50px;
+        width: 50px;
+        float: right;
+        position: fixed;
+        
+    }
+    .second-content h4{
+        color: rgb(107, 107, 107);
+        font-size: medium;
+        font-family:Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        
+    }
+    .second-content h1{
+        text-align: center;
+        font-size: xx-large;
+        line-height: 1.6;
+        font-family:Arial, sans-serif;
+
+       
+    }
+
+
+    .scd-content-flex{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+        flex-direction: row;
+        margin: 20px;
+        padding: 20px;
+        justify-content: space-around;
+
+    }
+    .services h4{
+        color: darkblue;
+        float: left;
+        font-size: medium;
+        letter-spacing: 2px;
+
+      
+        
+    }
+    .second-content  p{
+            line-height: 1.4;
+            color: rgb(107, 107, 107);
+            font-family:Arial, sans-serif;
+            letter-spacing: 0.5px;
+            
+        }
+    .third-content{
+        display: flex;
+        align-items: center;
+    }
+    .img2{
+        padding: 100px;
+    }
+    .third-content h4{
+        color: rgb(107, 107, 107);
+        font-size: medium;
+        font-family:Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .third-content h1{
+        color: darkblue;
+        line-height: 1.5;
+        font-family:Arial, sans-serif;
+        font-size: xx-large;
+
+    }
+    .third-content p{
+        line-height: 1.4;
+        color: rgb(107, 107, 107);
+        font-family:Arial, sans-serif;
+        line-height: 1.4;
+        letter-spacing: 0.5px;
+
+
+    }
+    .fourth-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 140px;
+    }
+    .fourth-content h4{
+        color: rgb(107, 107, 107);
+        font-size: medium;
+        font-family:Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .fourth-content h1{
+        color: darkblue;
+        line-height: 1.5;
+        font-family:Arial, sans-serif;
+        font-size: xx-large;
+
+    }
+    .fourth-content p{
+        line-height: 1.4;
+        color: rgb(107, 107, 107);
+        font-family:Arial, sans-serif;
+        line-height: 1.4;
+        letter-spacing: 0.5px;
+
+
+    }
+    .img3{
+       padding-right: 60px;
+    }
+    .feature{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px;
+        
+    }
+    .text h4{
+        color: darkblue;
+        font-size: large;
+        letter-spacing: 0.5px;
+        font-family:Arial, sans-serif;
+
+    }
+   
+    .img4{
+        margin-right: 17px;
+    }
+    
+    .fifth{
+        background-color: rgb(232, 248, 255);
+    }
+
+    .fifth-content h4{
+        color: rgb(107, 107, 107);
+        font-size: medium;
+        font-family:Arial, sans-serif;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .fifth-content h1{
+        color: darkblue;
+        line-height: 1.5;
+        font-family:Arial, sans-serif;
+        font-size: xx-large;
+        text-align: center;
+
+    }
+
+    .transform{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .img5{
+        margin-right: 20px;
+        margin-top: 80px;
+    }
+    .text1 h4{
+        color: darkblue;
+        font-size: large;
+        letter-spacing: 0.5px;
+        font-family:Arial, sans-serif;
+        text-align: left;
+
+    }
+    .fifth-content p{
+        line-height: 1.4;
+        color: rgb(107, 107, 107);
+        font-family:Arial, sans-serif;
+        letter-spacing: 0.5px;
+
+
+    }
+    .row{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+    }
+    footer{
+        background-color: darkblue;
+    
+    }
+    .footer1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        color: white;
+        padding-bottom: 600px;
+        padding: 50px;
+    }
+    .copy{
+        background-color: darkblue;
+        border-top: 1px solid rgb(142, 138, 138);
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+
+    }
+   
+</style>
+<body>
+    <header>
+       
+        <nav>
+           
+                <img class="logo" src="/axelpics/logo-1.png" alt="axel logo">
+           
+            <ul>
+                <li><a href="#">Software Services</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">SEO</a></li>
+                <li><a href="#">Industries</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Case study</a></li>
+                <li><a href="#">Company</a></li>
+            </ul>
+           
+        </nav>
+    </header>
+
+    <section class="main">
+
+        <div class="main-content">
+
+            <h1 >Technology-Driven Solutions <br>That Harness <br> the Power of Change</h1>
+            <br><br>
+            <p>Introducing powerful and flexible solutions that open <br>up a world of digital possibilities for your business.</p>
+        </div>
+    
+        <img class="wtsp" src="https://cdn3.iconfinder.com/data/icons/social-media-chamfered-corner/154/whatsapp-512.png" alt="">
+    </section><br><br>
+
+    <section class="second">
+        <div class="second-content">
+            <h4>OUR SERVICES</h4>
+            <h1>Reinventing Business with Technological Innovation</h1>
+            <div class="scd-content-flex">
+        <div class="services">
+            <div class="imgservice"><img src="/axelpics/Group-71-70x70.png" alt=""></div><br>
+            <h4>SOFTWARE CONSULTING</h4><br>
+            <P>Assisting business  with  expert <br>guidance to assess and improve <br>technology enabled business <br>processes</P>
+        </div>
+
+        <div class="services">
+            <div class="imgservice"><img src="/axelpics/Group-72-70x70.png" alt=""></div><br>
+            <h4>SOFTWARE SERVICES</h4><br>
+            <P>Creating long lasting value for your<br>business through efficient and  <br>effective software solutions</P>
+        </div>
+
+        <div class="services">
+            <div class="imgservice"><img src="/axelpics/Group-73-70x70.png" alt=""></div><br>
+            <h4>DIGITAL MARKETING</h4><br>
+            <P>Enabling businesses to digitally<br>transformwith smart and scalable <br>digital strategies and services</P>
+        </div>
+        </div>
+        </div><br><br><br>
+    </section>
+
+        <section class="third">
+            <div class="third-content">
+                <div class="img2">
+                <img src="/axelpics/2-011.png" alt="">
+            </div>
+                <div>
+                    <h4>ABOUT US</h4>
+                    <h1>Unleashing Your Digital <br> SUCCESS Through  Software <br> Consulting and Development</h1>
+                    <p>Established in 2013,Axel Technologies is one of the foremost off shore <br>software design and development companies with solid web and mobile <br>platforms competencies.</p>
+                    <p>All our initiatives are planned,developed and grown in close collaboration <br>with our clients,helping them move a step closer to their business goals. <br>Our digital strategies are designed to deliver business results.We create <br>and transfer digital skills,expertise and ideas for continuous <br>improvement by leveraging our innovation ecosystem.</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="fourth">
+            <div class="fourth-content">
+                <div class="fourth-content1">
+                <div>
+                    <h4>WHAT WE DO</h4>
+                    <h1>We develop SOLUTIONS that <br> align with your business <br> processes</h1>
+                    <p>By helping brands grow and succeed as high-performance companies, <br> we help them reach their goals and realize their full potential. Using  <br>relevant data, the latest technology, and personalized digital experiences, <br> we help brands grow in the digital landscape. Our software and digital <br> solutions are:</p>
+                </div><br>
+                <div class="feature">
+                    <div class="img4"><img src="/axelpics/Group-53-1-1.png" alt=""></div>
+                   <div class="text"><h4>Data-Driven</h4>
+                    <p>Our data-driven approach aids your business growth by <br>tackling your real-life business problems.</p>
+                </div> 
+                </div><br>
+                <div class="feature">
+                    <div class="img4"><img src="/axelpics/Group-55.png" alt=""></div>
+                    <div class="text"><h4>Industry-Specific</h4>
+                    <p>We develop scalable solutions fit for every business by <br>incorporating industry relecant trends and technologies.</p>
+                </div>
+                </div><br>
+                <div class="feature">
+                    <div class="img4"> <img src="/axelpics/Group-56.png" alt=""></div>
+                    <div class="text"><h4>Success-Oriented</h4>
+                    <p>We combine our expertise and exposure to develop<br>business strategies that boost your productivity and cater <br>to your organization's success.</p>
+                </div>
+                </div>
+            </div>
+                <div class="img3">
+                    <img src="/axelpics/3-01.png" alt="">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="fifth">
+            <div class="fifth-content">
+                
+                <div>
+                    <h4>WHAT WE OFFER</h4>
+                    <h1>Transforming Organizations with One of a Kind Business Approach</h1>
+                </div><br>
+                <div class="row">
+                <div class="transform">
+                    <div class="img5"><img src="/axelpics/Group-74.png" alt=""></div>
+                   <div class="text1"><h4>Dedicated Team</h4>
+                    <p>We extend support at every step of the process with <br>a dedicated team to ensure the highest possible <br>quality of your project instead of taking external help <br> from third parties.</p></div> 
+                </div><br>
+                <div class="transform">
+                    <div class="img5"><img src="/axelpics/Group-75.png" alt=""></div>
+                    <div class="text1"><h4>Industry Experts</h4>
+                        <p>We have worked with various clients and delivered <br>successful solutions throughout our years of <br>experience and expertise in the industry, putting us <br>ahead of the competition.</p> </div>
+                </div><br>
+                <div class="transform">
+                    <div class="img5"> <img src="/axelpics/Group-76.png" alt=""></div>
+                    <div class="text1"><h4>On-Time Project Delivery</h4>
+                        <p>We understand the importance of punctuality and <br>commitment, and hence we assure on-time delivery <br> of your project, regardless of how complicated they <br>are.</p></div>
+                </div>
+                <div class="transform">
+                    <div class="img5"> <img src="/axelpics/Group-77.png" alt=""></div>
+                    <div class="text1"><h4>Quality Assurance</h4>
+                        <p>Our services and solutions go through several quality <br> checks to ensure that they meet even the highest <br> industry standards and are up to date with the latest <br> trends.</p></div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer1">
+            <div class="logo">
+                <img src="/axelpics/axel-logo-2.png" alt=""><br><br>
+<p>ELEVATING YOUR DIGITAL <BR>SUCCESS THROUGH SOFTWARE <BR>CONSULTING AND <BR>DEVELOPMENT</p>
+            </div>
+
+            <div class="implinks">
+                <h5>Important Links</h5>
+                <p>About Us</p>
+                <p>Industries</p>
+                <p>Career</p>
+                <p>Contact Us</p>
+                <p>Blog</p>
+            </div>
+
+            <div class="fservices">
+                <h5>Featured Services</h5>
+                <p>Mobile App Development</p>
+                <p>Custom Development</p>
+                <p>Integrations</p>
+                <p>Website Development</p>
+                <p>Digital Marketing</p>
+            </div>
+
+            <div class="contact">
+                <h5>Contact</h5>
+               
+                <p>Axel Technologies Private Limited <br>Floor B1 / 2, Sahya Building,<br> KSTIL Special Economic Zone,<br> Govt. Cyberpark Kozhikode, Kerala <br>PIN:673016</p>
+               
+                <p>Phone: +91 87 14 60 30 48</p>
+               
+            </div>
+        </div>
+        <div class="copy">
+            <p>Privacy policy @2024 Axel Technologies Private Limited-All Rights Reserved</p>
+        </div>
+       
+       
+        </footer>
+
+
+   
+</body>
+</html>
